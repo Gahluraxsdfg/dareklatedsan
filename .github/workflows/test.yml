@@ -51,4 +51,4 @@ jobs:
             -e RELAY_URL=$RELAY_URL \
             -e WORKER_SECRET=$WORKER_SECRET \
             -v ~/.config/rclone/rclone.conf:/root/.config/rclone/rclone.conf:ro \
-            ghcr.io/your-username/distributed-swarm-monorepo-worker:latest
+            ghcr.io/tvkk0539/signal-worker:latest
