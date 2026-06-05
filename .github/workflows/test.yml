@@ -13,7 +13,7 @@ jobs:
         run: echo "Starting Swarm Worker..."
 
       - name: 🐳 Pull Docker Image
-        run: docker pull ghcr.io/your-username/distributed-swarm-monorepo-worker:latest
+        run: docker pull ghcr.io/tvkk0539/signal-worker:latest
 
       # The Hybrid Configuration Engine dynamically fetches rclone configs from the 
       # Relay Database. We no longer need to mount local config files!
